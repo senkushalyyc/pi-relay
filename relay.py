@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Replace with your Pi's webhook URL
-PI_WEBHOOK = "http://your-pi-ip:7777/run"
+PI_WEBHOOK = "http://islandboy@pi-bot.bumblebee-monitor.ts.net:7777/run"
 
 @app.route("/gpt-relay", methods=["POST"])
 def relay_command():
